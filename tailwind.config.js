@@ -8,12 +8,31 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "chefchaouen-blue": "#4392f1ff",
-        "dark-blue": "00487c",
-        "text-color": "#3e6680",
-        "lavender-web": "#e3ebffff",
-        "alice-blue": "#e7f0ffff",
-        vermilion: "#dc493aff",
+        "ucla-blue": {
+          hex: "#3e78b2ff",
+          hsl: "hsla(210, 48%, 47%, 1)",
+          rgb: "rgba(62, 120, 178, 1)",
+        },
+        "cobalt-blue": {
+          hex: "#004ba8ff",
+          hsl: "hsla(213, 100%, 33%, 1)",
+          rgb: "rgba(0, 75, 168, 1)",
+        },
+        "outer-space": {
+          hex: "#4a525aff",
+          hsl: "hsla(210, 10%, 32%, 1)",
+          rgb: "rgba(74, 82, 90, 1)",
+        },
+        "raisin-black": {
+          hex: "#24272bff",
+          hsl: "hsla(214, 9%, 15%, 1)",
+          rgb: "rgba(36, 39, 43, 1)",
+        },
+        black: {
+          hex: "#07070aff",
+          hsl: "hsla(240, 18%, 3%, 1)",
+          rgb: "rgba(7, 7, 10, 1)",
+        },
       },
     },
   },

@@ -3,37 +3,31 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="bg-lavender-web text-gray-800 min-h-screen">
-      <h1 className="text-5xl text-center font-bold pt-20">
-        Techinika e-learning platform
-      </h1>
-
-      {/**
-         Dummy text to describe e learning platform
-          */}
-      <div
-        className="
-        flex justify-center p-4 gap-4 items-center
-      "
-      >
-        <div className="flex flex-col space-y-4">
-          <button className="bg-chefchaouen-blue text-white py-2 px-4 rounded">
-            Chefchaouen Blue Button
-          </button>
-          <p className="text-dark-blue">This is a Dark Blue Text.</p>
-          <div className="bg-text-color p-4 rounded">
-            <p className="text-white">Text with Text Color Background</p>
-          </div>
-          <div className="bg-lavender-web p-4 rounded">
-            <p className="text-dark-blue">Text on Lavender Web Background</p>
-          </div>
-          <div className="bg-alice-blue p-4 rounded border border-vermilion">
-            <p className="text-dark-blue">
-              Alice Blue Background with Vermilion Border
-            </p>
-          </div>
+    <div>
+      <header className="bg-ucla-blue-hex text-white py-4">
+        <h1>Welcome to Techinika E-Learning</h1>
+      </header>
+      <main className="p-8">
+        <div className="bg-gradient-top p-4 m-4 rounded-lg shadow-lg">
+          <h2 className="text-cobalt-blue-hex">Course 1</h2>
+          <p className="text-outer-space-hsl">Learn about Web Development</p>
         </div>
-      </div>
+        <div className="bg-gradient-right p-4 m-4 rounded-lg shadow-lg">
+          <h2 className="text-ucla-blue-hex">Course 2</h2>
+          <p className="text-raisin-black-hsl">Explore Machine Learning</p>
+        </div>
+        <div className="bg-gradient-bottom p-4 m-4 rounded-lg shadow-lg">
+          <h2 className="text-cobalt-blue-hex">Course 3</h2>
+          <p className="text-outer-space-hsl">Master Mobile App Development</p>
+        </div>
+        <div className="bg-gradient-left p-4 m-4 rounded-lg shadow-lg">
+          <h2 className="text-raisin-black-hex">Course 4</h2>
+          <p className="text-cobalt-blue-hsl">Discover Data Science</p>
+        </div>
+      </main>
+      <footer className="bg-gradient-radial py-4 text-center text-white">
+        &copy; 2023 Technika E-Learning
+      </footer>
     </div>
   );
 }
