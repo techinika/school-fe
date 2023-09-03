@@ -50,7 +50,7 @@ export default function Home() {
         <CardGrid data={courses} type={"courses"} />
       </div>
       <footer className="bg-gradient-radial py-4 text-center text-white">
-        &copy; 2023 Technika School
+        &copy; 2023 Technika Technology School
       </footer>
     </div>
   );
