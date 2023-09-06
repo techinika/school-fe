@@ -14,7 +14,6 @@
   color: white;
   padding: 13px;
   text-decoration: none;
-
 }
 
 .sidebar a.active {
@@ -35,8 +34,8 @@ div.content {
   height: 1000px;
 }
 
-/* mini computer and tablet view */
-@media screen and (max-width: 1500px) {
+/*  computer  view */
+@media screen and (max-width: 1350px) {
   .sidebar {
     width: 100%;
     height: auto;
@@ -54,14 +53,14 @@ div.content {
 }
 
 /* phone view */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .sidebar a {
     text-align: center;
     float: none;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
 
   .sidebar a:not(:first-child),
   .right {
