@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <header className="bg-ucla-blue-hex text-white py-4">
-        <h1>Welcome to Techinika E-Learning</h1>
+        <h1>Welcome to heloTechinika E-Learning</h1>
       </header>
       <main className="p-8">
         <div className="bg-gradient-top p-4 m-4 rounded-lg shadow-lg">
