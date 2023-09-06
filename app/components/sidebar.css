@@ -12,6 +12,7 @@
     transition: 0.2s;
     margin-bottom: 100px;
   }
+.icon {float: right;}
 .left {float: left;}
 .right {float: right;}
 .topnav:after{
@@ -44,7 +45,7 @@
   }
   
   @media screen and (max-width: 800px) {
-    .topnav a:not(:first-child) {
+    .topnav a:not(:first-child), .right {
         display: none;
     }
   
@@ -53,6 +54,7 @@
         display: block;
     }
   }
+  
   
   @media screen and (max-width: 800px) {
     .topnav.responsive {
@@ -88,4 +90,4 @@
     transition: 0.11s;
     margin-right: 40px;
   }
-  
+ 
