@@ -1,11 +1,14 @@
 import Link from "next/link";
 import React from "react";
 import Sidebar from "../components/Sidebar";
+import "../components/sidebar.css";
 
 export default function Home() {
   return (
     <div>
       <Sidebar />
+      <div class="content">
+  
       <main className="p-8">
         <div className="bg-gradient-top p-4 m-4 rounded-lg shadow-lg">
           <h2 className="text-cobalt-blue-hex">Course 1</h2>
@@ -27,6 +30,7 @@ export default function Home() {
       <footer className="bg-gradient-radial py-4 text-center text-white">
         &copy; 2023 Technika E-Learning
       </footer>
+      </div>
     </div>
   );
 }
