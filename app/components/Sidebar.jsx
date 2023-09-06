@@ -18,7 +18,8 @@ function Sidebar() {
           <a href="">Sign up</a>
         </div>
 
-        <div class="icon"
+        
+        <div class="icon"></div>
         <i>
           <div class="bar1"></div>
           <div class="bar2"></div>
@@ -27,7 +28,7 @@ function Sidebar() {
     </div>
     </div>
 
-    </div >
+
 
   )
 }
