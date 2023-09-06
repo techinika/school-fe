@@ -19,12 +19,12 @@ module.exports = {
           rgb: "rgba(0, 75, 168, 1)",
         },
         "outer-space": {
-          hex: "#4a525aff",
+          hex: "#252525",
           hsl: "hsla(210, 10%, 32%, 1)",
           rgb: "rgba(74, 82, 90, 1)",
         },
         "raisin-black": {
-          hex: "#24272bff",
+          hex: "#212121",
           hsl: "hsla(214, 9%, 15%, 1)",
           rgb: "rgba(36, 39, 43, 1)",
         },

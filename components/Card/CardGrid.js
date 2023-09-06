@@ -3,7 +3,7 @@ import { Card } from "./Card";
 export const CardGrid = ({ data, type }) => {
   return (
     <>
-      <div className={`grid grid-cols-4 gap-5`}>
+      <div className={`grid grid-cols-4 gap-10`}>
         {data ? (
           data.map((item) => (
             <div key={item.id}>
