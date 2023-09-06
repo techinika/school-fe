@@ -26,6 +26,76 @@ body {
 }
 
 .btn {
-  @apply bg-ucla-blue-hex py-3 px-8 rounded-md ;
+  @apply bg-ucla-blue-hex py-3 px-8 rounded-md;
 
+/* Sidebar */
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #2d5986;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  transition: 0.2s;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 13px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #0369a1;
+  color: white;
+  font-size: 17px;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #3b82f6;
+  color: white;
+
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/*  computer  view */
+@media screen and (max-width: 1350px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 8px 19px;
+  }
+
+  .sidebar a {
+    float: left;
+  }
+
+  div.content {
+    margin-left: 0;
+  }
+}
+
+/* phone view */
+@media screen and (max-width: 600px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .sidebar a:not(:first-child),
+  .right {
+    display: none;
+  }
 }

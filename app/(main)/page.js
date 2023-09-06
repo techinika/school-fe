@@ -1,4 +1,5 @@
 import { CardGrid } from "@/components/Card/CardGrid";
+import Sidebar from "@/components/Sidebar";
 import React from "react";
 
 export default function Home() {
@@ -50,18 +51,20 @@ export default function Home() {
   ];
 
   return (
-    <div>
-      <header className="py-4 text-white font-bold">
-        <h1 className="text-2xl">Techinika Technology School</h1>
-        <p className="text-xl">Build the future...</p>
-        <button className="btn">{`Become our student`} &nbsp; &raquo;</button>
-      </header>
-      <div className="p-10">
-        <CardGrid data={courses} type={"courses"} />
+    <>
+      <div>
+        <header className="py-4 text-white font-bold">
+          <h1 className="text-2xl">Techinika Technology School</h1>
+          <p className="text-xl">Build the future...</p>
+          <button className="btn">{`Become our student`} &nbsp; &raquo;</button>
+        </header>
+        <div className="p-10">
+          <CardGrid data={courses} type={"courses"} />
+        </div>
+        <footer className="bg-gradient-radial py-4 text-center text-white">
+          &copy; 2023 Technika Technology School
+        </footer>
       </div>
-      <footer className="bg-gradient-radial py-4 text-center text-white">
-        &copy; 2023 Technika Technology School
-      </footer>
-    </div>
+    </>
   );
 }
