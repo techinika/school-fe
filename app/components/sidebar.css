@@ -12,7 +12,6 @@
     transition: 0.2s;
     margin-bottom: 100px;
   }
-.icon {float: right;}
 .left {float: left;}
 .right {float: right;}
 .topnav:after{
@@ -41,7 +40,9 @@
   }
   
   .topnav .icon {
-    display: none;
+    display: block;
+    float: right;
+    margin-bottom: 10px;
   }
   
   @media screen and (max-width: 800px) {
