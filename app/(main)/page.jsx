@@ -1,12 +1,11 @@
 import Link from "next/link";
 import React from "react";
+import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   return (
     <div>
-      <header className="bg-ucla-blue-hex text-white py-4">
-        <h1>Welcome to Techinika E-Learning</h1>
-      </header>
+      <Sidebar />
       <main className="p-8">
         <div className="bg-gradient-top p-4 m-4 rounded-lg shadow-lg">
           <h2 className="text-cobalt-blue-hex">Course 1</h2>
