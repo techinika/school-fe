@@ -7,9 +7,9 @@ function Sidebar() {
     <div>
 
 
-      <div class="topnav" id="myTopnav">
+      <div class="topnav mb-8" id="myTopnav">
         <div class="left">
-          <a href="" class="active"> Techinikaa</a>
+          <a href="" class="active"> Techinika</a>
         </div>
         <div class="right">
           <a href="">Home</a>
@@ -19,7 +19,7 @@ function Sidebar() {
           </div>
 
         
-        <div class="icon ">
+        <div class="icon mt-2">
           <i>
           <div class="bar1"></div>
           <div class="bar2"></div>
