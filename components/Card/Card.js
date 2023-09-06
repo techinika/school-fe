@@ -5,7 +5,7 @@ export const Card = ({ card }) => {
   return (
     <>
       <div
-        className={`shadow-xl rounded-md text-white bg-outer-space-hex hover:-translate-y-2 hover:rotate-2 cursor-pointer ${
+        className={`shadow-xl rounded-md text-white bg-outer-space-hex hover:-translate-y-2 hover:-rotate-2 cursor-pointer ${
           featured ? "border-4 border-ucla-blue-hex" : "border-4 border-outer-space-hex"
         }`}
       >
