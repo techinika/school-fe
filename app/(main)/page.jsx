@@ -10,7 +10,7 @@ export default function Home() {
       <main className="p-8">
         <div className="bg-gradient-top p-4 m-4 rounded-lg shadow-lg">
           <h2 className="text-cobalt-blue-hex">Course 1</h2>
-          <p className="text-outer-space-hsl">Learn about Web Development</p>
+          <p className="text-outer-space-hsl">Learn about Web Development.</p>
         </div>
         <div className="bg-gradient-right p-4 m-4 rounded-lg shadow-lg">
           <h2 className="text-ucla-blue-hex">Course 2</h2>
