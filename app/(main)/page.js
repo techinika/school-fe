@@ -52,18 +52,18 @@ export default function Home() {
 
   return (
     <>
-      <div className="flex ">
-        <div className="flex-3">
-          <header className="py-4 text-white text-center font-bold">
-            <h1 className="text-xl">Welcome to Techinika Technology School</h1>
-          </header>
-          <div className="p-10">
-            <CardGrid data={courses} type={"courses"} />
-          </div>
-          <footer className="bg-gradient-radial py-4 text-center text-white">
-            &copy; 2023 Technika Technology School
-          </footer>
+      <div>
+        <header className="py-4 text-white font-bold">
+          <h1 className="text-2xl">Techinika Technology School</h1>
+          <p className="text-xl">Build the future...</p>
+          <button className="btn">{`Become our student`} &nbsp; &raquo;</button>
+        </header>
+        <div className="p-10">
+          <CardGrid data={courses} type={"courses"} />
         </div>
+        <footer className="bg-gradient-radial py-4 text-center text-white">
+          &copy; 2023 Technika Technology School
+        </footer>
       </div>
     </>
   );
