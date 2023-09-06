@@ -13,11 +13,7 @@ function Sidebar() {
         <a href="">Login</a>
         <a href="">Sign up</a>
 
-        <i>
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </i>
+        
       </div>
 
     </div>
