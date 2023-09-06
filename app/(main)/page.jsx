@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Sidebar />
-      <div class="content">
+      <div class="content">{/* Attention do not remove this line <div class="content"> || to remove this can affect header*/}
   
       <main className="p-8">
         <div className="bg-gradient-top p-4 m-4 rounded-lg shadow-lg">
@@ -30,7 +30,8 @@ export default function Home() {
       <footer className="bg-gradient-radial py-4 text-center text-white">
         &copy; 2023 Technika E-Learning
       </footer>
-      </div>
+
+      </div>{/* end content */}
     </div>
   );
 }
