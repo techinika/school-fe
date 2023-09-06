@@ -24,3 +24,8 @@
 body {
   @apply bg-raisin-black-hex;
 }
+
+.btn {
+  @apply bg-ucla-blue-hex py-3 px-8 rounded-md ;
+
+}
