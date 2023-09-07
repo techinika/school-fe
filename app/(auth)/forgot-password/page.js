@@ -1,5 +1,4 @@
 "use client";
-
 import Link from "next/link";
 import React from "react";
 import { useForm } from "react-hook-form";
@@ -19,7 +18,7 @@ const ForgotPassword = () => {
     <div className="w-full max-w-xs mx-auto mt-8">
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
+        className="bg-white border border-gray-200 rounded px-8 pt-6 pb-8 mb-4"
       >
         <div className="mb-4">
           <label className="block  text-sm  mb-2" htmlFor="email">
