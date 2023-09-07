@@ -7,6 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height: {
+        "screen-90": "90vh",
+        "screen-80": "80vh",
+        "screen-70": "70vh",
+        "screen-60": "60vh",
+        "screen-50": "50vh",
+        "screen-40": "40vh",
+        "screen-30": "30vh",
+        "screen-20": "20vh",
+        "screen-10": "10vh",
+      },
       colors: {
         "ucla-blue": {
           hex: "#3e78b2ff",
