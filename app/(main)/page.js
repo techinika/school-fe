@@ -52,6 +52,8 @@ export default function Home() {
 
   return (
     <>
+    <Sidebar />
+    <div class="content">
       <div className="flex ">
         <div className="flex-3">
           <header className="py-4 text-white text-center font-bold">
@@ -64,6 +66,7 @@ export default function Home() {
             &copy; 2023 Technika Technology School
           </footer>
         </div>
+      </div>
       </div>
     </>
   );

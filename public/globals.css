@@ -31,7 +31,7 @@ body {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #2d5986;
+  background-color: black;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -41,18 +41,19 @@ body {
 .sidebar a {
   display: block;
   color: white;
-  padding: 13px;
+  padding: 13px; 
   text-decoration: none;
 }
 
 .sidebar a.active {
-  background-color: #0369a1;
+  background-color: black;
   color: white;
   font-size: 17px;
+  display: block;
 }
 
 .sidebar a:hover:not(.active) {
-  background-color: #3b82f6;
+  background-color:  #0e7490;
   color: white;
 
 }
@@ -71,28 +72,30 @@ div.content {
     position: relative;
     padding: 8px 19px;
   }
-
-  .sidebar a {
-    float: left;
-  }
-
-  div.content {
-    margin-left: 0;
-  }
+  .sidebar a {float: left; }
+  div.content {  margin-left: 0;  }
+  .logo {display: none;}
+  .main {display: none;}
 }
 
 /* phone view */
-@media screen and (max-width: 600px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
+@media screen and (max-width: 800px) {
+.sidebar a{display: none;}
+.logo a{
+  display: block;
+  width: 25px;
+  float: right;
+
+}
 }
 
-@media screen and (max-width: 600px) {
+.logo img{
+  border-radius: 100%;
+  display: block;
+}
 
-  .sidebar a:not(:first-child),
-  .right {
-    display: none;
-  }
+.icons {
+  color: white;
+  display: inline-block;
+  margin: 5px;
 }
