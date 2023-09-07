@@ -1,0 +1,78 @@
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #0d0d0e;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  transition: 0.2s;
+  color: white;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 13px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #0369a1;
+  color: white;
+  font-size: 17px;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #3b82f6;
+  color: white;
+
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/*  computer  view */
+@media screen and (max-width: 1350px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 8px 19px;
+  }
+
+  .sidebar a {
+    float: left;
+  }
+
+  div.content {
+    margin-left: 0;
+  }
+}
+.card{
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin: 5px;
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+  transition: 0.3s;
+}
+/* phone view */
+@media screen and (max-width: 600px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .sidebar a:not(:first-child),
+  .right {
+    display: none;
+  }
+}

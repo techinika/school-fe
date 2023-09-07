@@ -1,4 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: [
+      "amazonaws.com",
+      "leverageedublog.s3.ap-south-1.amazonaws.com",
+      "images.unsplash.com",
+      "plus.unsplash.com",
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

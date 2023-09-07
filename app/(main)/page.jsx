@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import Sidebar from "../components/Sidebar";
-import "../components/sidebar.css";
+import Sidebar from "../components/sidebar/Sidebar";
+import "../components/sidebar/sidebar.css";
 
 export default function Home() {
   return (
