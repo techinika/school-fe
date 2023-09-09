@@ -1,5 +1,7 @@
 import { CardGrid } from "@/components/Card/CardGrid";
 import Sidebar from "@/components/Sidebar";
+import { Title } from "@/components/Title";
+import Image from "next/image";
 import React from "react";
 
 export default function Home() {
@@ -53,17 +55,32 @@ export default function Home() {
   return (
     <>
       <div>
-        <header className="py-4 text-white font-bold">
-          <h1 className="text-2xl">Techinika Technology School</h1>
-          <p className="text-xl">Build the future...</p>
-          <button className="btn">{`Become our student`} &nbsp; &raquo;</button>
-        </header>
-        <div className="p-10">
-          <CardGrid data={courses} type={"courses"} />
+        <div>{/* Sidebar */}</div>
+        <div>
+          <header className="p-5 text-white font-bold">
+            <div>
+              <h1 className="text-2xl pt-10">Techinika Technology School</h1>
+              <p className="text-xl pt-5 pb-10">Build the future...</p>
+              <button className="btn py-4">
+                {`Take a step`} &nbsp; &raquo;
+              </button>
+            </div>
+            <div>
+              {/* <Image src={"https://www.techopedia.com/wp-content/uploads/2023/03/aee977ce-f946-4451-8b9e-bba278ba5f13.png"} width={100} height={100} alt="Nothing image"/> */}
+            </div>
+          </header>
+          <div className="p-10 popular">
+            <Title title={"Popular courses"} />
+            <CardGrid data={courses} type={"courses"} />
+          </div>
+          <div className="p-10 popular">
+            <Title title={"New courses"} />
+            <CardGrid data={courses} type={"courses"} />
+          </div>
+          <footer className="bg-gradient-radial py-4 text-center text-white">
+            &copy; 2023 Technika Technology School
+          </footer>
         </div>
-        <footer className="bg-gradient-radial py-4 text-center text-white">
-          &copy; 2023 Technika Technology School
-        </footer>
       </div>
     </>
   );
