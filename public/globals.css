@@ -27,7 +27,7 @@ body {
 
 .btn {
   @apply bg-ucla-blue-hex py-3 px-8 rounded-md;
-
+}
 /* Sidebar */
 
 .sidebar {
