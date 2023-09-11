@@ -54,15 +54,15 @@ export default function Home() {
 
   return (
     <>
-      <div>
-        <div>{/* Sidebar */}</div>
-        <div>
+      <div className="flex">
+        <div className="flex-1"><Sidebar/></div>
+        <div className="flex-3 p-5">
           <header className="p-5 text-white font-bold">
             <div>
-              <h1 className="text-2xl pt-10">Techinika Technology School</h1>
+              <h1 className="text-6xl font-black pt-5">Techinika Technology School</h1>
               <p className="text-xl pt-5 pb-10">Build the future...</p>
               <button className="btn py-4">
-                {`Take a step`} &nbsp; &raquo;
+                {`Subscribe for full access`} &nbsp; &#128276;
               </button>
             </div>
             <div>
